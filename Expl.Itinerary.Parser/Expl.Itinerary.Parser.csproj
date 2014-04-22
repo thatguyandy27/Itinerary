@@ -30,6 +30,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Expl.Itinerary.Parser.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="antlr.runtime, Version=2.7.7.3, Culture=neutral, PublicKeyToken=d7701e059243744f">
       <HintPath>lib\antlr.runtime.dll</HintPath>
@@ -61,6 +67,7 @@
   <ItemGroup>
     <None Include="ANTLR\mkparser.cmd" />
     <None Include="ANTLR\TimeDef.g" />
+    <None Include="Expl.Itinerary.Parser.snk" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="ANTLR\antlr-3.2.jar" />
